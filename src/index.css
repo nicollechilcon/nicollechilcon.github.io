@@ -10,6 +10,9 @@
   /* NAVBAR */
   --navbar-height: 80px;
   --navbar-height-mobile: 60px;
+
+  /* SIZES */
+  --width-container: 1200px;
 }
 
 @font-face {

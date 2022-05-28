@@ -1,0 +1,19 @@
+.projects-section .header {
+  padding: 5%;
+  max-width: var(--width-container);
+  margin: 0 auto;
+}
+
+.projects-section h3 {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+  .projects-section .header {
+    padding: 30px;
+  }
+
+  .projects-section h3 {
+    margin-bottom: 30px;
+  }
+}

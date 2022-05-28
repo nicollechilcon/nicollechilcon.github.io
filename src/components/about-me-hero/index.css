@@ -1,7 +1,9 @@
 .about-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  max-width: var(--width-container);
+  margin: 0 auto;
   flex-wrap: wrap;
   padding: 5%;
   gap: 50px;
@@ -24,7 +26,6 @@
 .about-section {
   width: 45%;
   min-width: 200px;
-  max-width: 500px;
 }
 
 .about-container img {
@@ -39,6 +40,10 @@
 @media only screen and (max-width: 800px) {
   .about-container {
     padding: 30px;
+  }
+
+  .about-container img {
+    margin: 0 auto;
   }
 
   .about-section, .about-container img {
