@@ -1,8 +1,65 @@
+:root {
+  /* COLORS */
+  --white: #fff;
+  --light-pink: #D8B7B0;
+  --light-grey: #FCFCFC;
+  --soft-orange: #F4BA79;
+  --soft-tile: #89D2BF;
+  --soft-black: #272727;
+
+  /* NAVBAR */
+  --navbar-height: 80px;
+  --navbar-height-mobile: 60px;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('/src/assets/fonts/avenir-next-lt-pro.otf') format('opentype');
+}
+
 body {
-  margin: 0;
-  padding: 0;
+  background-color: var(--light-grey);
+  color: var(--soft-black);
 }
 
 * {
   box-sizing: border-box;
+  font-family: Avenir, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  margin-top: var(--navbar-height);
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 800px) {
+  .app-container {
+    margin-top: var(--navbar-height-mobile);
+  }
+
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 26px;
+}
 }
