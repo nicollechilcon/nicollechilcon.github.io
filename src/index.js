@@ -3,7 +3,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
 import { Home } from './pages/home';
 import { About } from './pages/about';
-import { Navbar } from './components/navbar/index.tsx';
+import { Navbar } from './components/navbar/index';
 import React from 'react';
 import './index.css';
 
