@@ -6,10 +6,14 @@
   --soft-orange: #F4BA79;
   --soft-tile: #89D2BF;
   --soft-black: #272727;
+  --dark-grey: #404040;
 
   /* NAVBAR */
   --navbar-height: 80px;
   --navbar-height-mobile: 60px;
+
+  /* FOOTER */
+  --footer-height: 230px;
 
   /* SIZES */
   --width-container: 1200px;
@@ -25,6 +29,12 @@ body {
   color: var(--soft-black);
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
+}
+
 * {
   box-sizing: border-box;
   font-family: Avenir, sans-serif;
@@ -33,6 +43,7 @@ body {
 }
 
 .app-container {
+  flex: 1;
   margin-top: var(--navbar-height);
 }
 
@@ -70,7 +81,7 @@ h5 {
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   h4 {

@@ -5,7 +5,7 @@ import { ProjectCard } from '../project-card';
 
 export function ProjectsBanner() {
   return (
-    <section className="projects-section">
+    <section id="projects" className="projects-section">
       <div className="header">
         <h3>RECENT PROJECTS</h3>
       </div>

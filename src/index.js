@@ -3,7 +3,8 @@ import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
 import { Home } from './pages/home';
 import { About } from './pages/about';
-import { Navbar } from './components/navbar/index';
+import { Navbar } from './components/navbar';
+import { Footer } from './components/footer';
 import React from 'react';
 import './index.css';
 
@@ -18,6 +19,7 @@ root.render(
           <Route path="/about-me" element={<About />} />
         </Routes>
       </div>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -1,0 +1,22 @@
+.coming-soon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  width: 100%;
+  max-width: var(--width-container);
+  margin: 0 auto;
+  height: 500px;
+}
+
+.coming-soon-section  h3 {
+  text-align: center;
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 800px) {
+  .coming-soon-section {
+    height: 300px;
+    padding: 30px;
+  }
+}

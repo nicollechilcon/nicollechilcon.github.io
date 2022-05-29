@@ -1,13 +1,14 @@
 import { AboutMeHero } from '../../components/about-me-hero';
 import { ProjectsBanner } from '../../components/projects-banner';
+import { ComingSoonBanner } from '../../components/coming-soon-banner';
 import React from 'react';
-import './index.css';
 
 export function Home() {
   return (
     <div>
       <AboutMeHero />
       <ProjectsBanner />
+      <ComingSoonBanner />
     </div>
   );
 }

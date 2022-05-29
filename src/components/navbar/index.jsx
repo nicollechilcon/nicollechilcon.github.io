@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import close from '../../assets/icons/close.svg';
 import logo from '../../assets/icons/logo.svg';
 import menu from '../../assets/icons/menu.svg';
@@ -26,13 +27,13 @@ export function Navbar() {
 
       <ul className={clsx(showMobileMenu && 'is-flex')}>
         <li>
-          <Link to="/">Projects</Link>
+          <HashLink to="/#projects">Projects</HashLink>
         </li>
         <li>
           <Link to="/about-me">About me</Link>
         </li>
         <li>
-          <Link to="/">Contact</Link>
+          <HashLink to="/#footer">Contact</HashLink>
         </li>
       </ul>
     </nav>
