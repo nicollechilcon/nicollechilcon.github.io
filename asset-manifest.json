@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab5a1b3c.css",
-    "main.js": "/static/js/main.cf27e206.js",
+    "main.css": "/static/css/main.a19950c4.css",
+    "main.js": "/static/js/main.a1ebbc0b.js",
     "static/js/787.58f03094.chunk.js": "/static/js/787.58f03094.chunk.js",
     "static/media/me.png": "/static/media/me.3b0c4943ef0e4a1cccc9.png",
-    "static/media/cover-1.png": "/static/media/cover-1.0331867ee070692b23d1.png",
+    "static/media/cover.png": "/static/media/cover.4c41d366c73495b5eaa4.png",
     "static/media/avenir-next-lt-pro.otf": "/static/media/avenir-next-lt-pro.94f2f163d4b698242fef.otf",
     "static/media/close.svg": "/static/media/close.a30efaa8c52c1fc5ad3a9bfac1d236f5.svg",
     "static/media/menu.svg": "/static/media/menu.76cd13a35a4fea51e2bae1f021decd9a.svg",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.a1c50d5362bc85e64e21d1fe882e0043.svg",
-    "main.ab5a1b3c.css.map": "/static/css/main.ab5a1b3c.css.map",
-    "main.cf27e206.js.map": "/static/js/main.cf27e206.js.map",
+    "main.a19950c4.css.map": "/static/css/main.a19950c4.css.map",
+    "main.a1ebbc0b.js.map": "/static/js/main.a1ebbc0b.js.map",
     "787.58f03094.chunk.js.map": "/static/js/787.58f03094.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab5a1b3c.css",
-    "static/js/main.cf27e206.js"
+    "static/css/main.a19950c4.css",
+    "static/js/main.a1ebbc0b.js"
   ]
 }
