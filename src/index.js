@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
 import { Home } from './pages/home';
@@ -11,7 +11,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <div className="app-container">
         <Routes>
@@ -20,7 +20,7 @@ root.render(
         </Routes>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

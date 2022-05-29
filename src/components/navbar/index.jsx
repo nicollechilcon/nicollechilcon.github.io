@@ -27,13 +27,13 @@ export function Navbar() {
 
       <ul className={clsx(showMobileMenu && 'is-flex')}>
         <li>
-          <HashLink to="/#projects">Projects</HashLink>
+          <HashLink smooth to="/#projects">Projects</HashLink>
         </li>
         <li>
           <Link to="/about-me">About me</Link>
         </li>
         <li>
-          <HashLink to="/#footer">Contact</HashLink>
+          <HashLink smooth to="#contact">Contact</HashLink>
         </li>
       </ul>
     </nav>

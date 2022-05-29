@@ -6,7 +6,7 @@ import './index.css';
 
 export function Footer() {
   return (
-    <footer id="footer">
+    <footer id="contact">
       <p>let&apos;s create something together! 🙋‍♀️</p>
       <div className="socials-container">
         <a target="_blank" href="https://www.behance.net/nicollechsuarez" rel="noreferrer">
