@@ -5,8 +5,8 @@ import './index.css';
 
 export function AboutMeHero() {
   return (
-    <main className="about-container">
-      <section className="about-section">
+    <main className="about-hero-container">
+      <section className="about-hero-section">
         <h1>Nicolle Chilcón</h1>
         <h2>UX Designer</h2>
         <div>
