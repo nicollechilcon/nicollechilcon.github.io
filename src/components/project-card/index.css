@@ -1,0 +1,55 @@
+.project-card {
+  width: 50%;
+  height: 530px;
+  color: var(--white);
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card img {
+  height: auto;
+  width: auto;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+.project-card, .project-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-cover {
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  transition: opacity 0.4s;
+}
+
+.project-cover h5 {
+  font-weight: bold;
+}
+
+.project-card:hover .project-cover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-card {
+    width: 100%;
+    height: 280px;
+  }
+
+  .project-card img {
+    max-width: 70%;
+    max-height: 70%;
+  }
+}

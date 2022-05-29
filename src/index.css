@@ -45,7 +45,15 @@ h2 {
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -62,7 +70,15 @@ h3 {
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 18px;
   }
 }
 
