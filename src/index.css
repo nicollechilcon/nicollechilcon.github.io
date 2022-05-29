@@ -19,9 +19,26 @@
   --width-container: 1200px;
 }
 
+/* FONTS */
 @font-face {
   font-family: 'Avenir';
-  src: url('/src/assets/fonts/avenir-next-lt-pro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  src: url('/src/assets/fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/src/assets/fonts/AvenirNextLTPro-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/src/assets/fonts/AvenirNextLTPro-It.otf') format('opentype');
 }
 
 body {
@@ -49,22 +66,31 @@ body {
 
 h1 {
   font-size: 70px;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 40px;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 35px;
+  font-weight: normal;
 }
 
 h4 {
   font-size: 30px;
+  font-weight: normal;
 }
 
 h5 {
   font-size: 20px;
+  font-weight: normal;
+}
+
+h6 {
+  font-weight: normal;
 }
 
 @media only screen and (max-width: 800px) {
