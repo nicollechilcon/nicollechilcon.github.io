@@ -2,10 +2,12 @@
 import ecolanaCover from '../assets/images/projects/ecolana/cover.png';
 import ecolanaHeroCover from '../assets/images/projects/ecolana/hero-cover.png';
 import ecolanaTitle from '../assets/images/projects/ecolana/title.png';
+import ecolanaProcess from '../assets/images/projects/ecolana/process.png';
 // Viajes Ballesteros
 import viajesBallesterosCover from '../assets/images/projects/viajes-ballesteros/cover.png';
 import viajesBallesterosHeroCover from '../assets/images/projects/viajes-ballesteros/hero-cover.png';
 import viajesBallesterosTitle from '../assets/images/projects/viajes-ballesteros/title.png';
+import viajesBallesterosProcess from '../assets/images/projects/viajes-ballesteros/process.png';
 
 export const projects = [
   {
@@ -32,7 +34,8 @@ export const projects = [
         roles: ['UX/UI Designer'],
         team: '3 intelligent tech  women',
         duration: '4 weeks'
-      }
+      },
+      process: viajesBallesterosProcess
     }
   },
   {
@@ -59,7 +62,8 @@ export const projects = [
         roles: ['UX Research', 'UX/UI Designer'],
         team: 'Bootcamp peers',
         duration: '4 weeks'
-      }
+      },
+      process: ecolanaProcess
     }
   }
 ];

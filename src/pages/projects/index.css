@@ -21,19 +21,17 @@
   object-fit: cover;
 }
 
-@media only screen and (max-width: 400px) {
-  .hero img:first-child {
-    height: 30px;
-  }
+.main, .design-process {
+  padding: 5%;
+  max-width: var(--width-container);
+  margin: 0 auto;
 }
 
+/* MAIN SECTION */
 .main {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto auto;
-  padding: 5%;
-  max-width: var(--width-container);
-  margin: 0 auto;
   gap: 30px 100px;
 }
 
@@ -65,7 +63,26 @@
   row-gap: 20px;
 }
 
+/* DESIGN PROCESS */
+.design-process h4 {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.design-process img {
+  width: 100%;
+  padding: 0 30px;
+  height: auto;
+}
+
+@media only screen and (max-width: 400px) {
+  .hero img:first-child {
+    height: 30px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
+  /* MAIN SECTION */
   .main {
     display: grid;
     grid-template-columns: 1fr;

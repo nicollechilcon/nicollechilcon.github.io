@@ -47,6 +47,10 @@ export function Projects() {
               </div>
             </div>
           </article>
+          <article className="design-process">
+            <h4>design process</h4>
+            <img src={project.content.process} alt="discover, define, ideate, design, testing"/>
+          </article>
         </div>
       }
     </>
