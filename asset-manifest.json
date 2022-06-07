@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.71f46aee.css",
-    "main.js": "/static/js/main.db00989a.js",
+    "main.css": "/static/css/main.a3dfb3a2.css",
+    "main.js": "/static/js/main.e73cb4e9.js",
     "static/js/787.58f03094.chunk.js": "/static/js/787.58f03094.chunk.js",
     "static/media/collage-frame.png": "/static/media/collage-frame.d3e14aeaf99d12e98583.png",
     "static/media/hero-cover.png": "/static/media/hero-cover.fb904cd2846018bdcb02.png",
@@ -11,6 +11,7 @@
     "static/media/AvenirNextLTPro-Bold.otf": "/static/media/AvenirNextLTPro-Bold.711a4eb654bf1139f123.otf",
     "static/media/AvenirNextLTPro-Regular.otf": "/static/media/AvenirNextLTPro-Regular.94f2f163d4b698242fef.otf",
     "static/media/AvenirNextLTPro-It.otf": "/static/media/AvenirNextLTPro-It.3e062c6caf04ecafa42c.otf",
+    "static/media/process.png": "/static/media/process.2c606e9b6e108b1e74e4.png",
     "static/media/close.svg": "/static/media/close.a30efaa8c52c1fc5ad3a9bfac1d236f5.svg",
     "static/media/behance.svg": "/static/media/behance.aa5ba47b3716eb498a499821a183e660.svg",
     "static/media/menu.svg": "/static/media/menu.76cd13a35a4fea51e2bae1f021decd9a.svg",
@@ -18,12 +19,12 @@
     "static/media/email.svg": "/static/media/email.71fa6c68601224df65a5d378828dcf1f.svg",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.a1c50d5362bc85e64e21d1fe882e0043.svg",
-    "main.71f46aee.css.map": "/static/css/main.71f46aee.css.map",
-    "main.db00989a.js.map": "/static/js/main.db00989a.js.map",
+    "main.a3dfb3a2.css.map": "/static/css/main.a3dfb3a2.css.map",
+    "main.e73cb4e9.js.map": "/static/js/main.e73cb4e9.js.map",
     "787.58f03094.chunk.js.map": "/static/js/787.58f03094.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71f46aee.css",
-    "static/js/main.db00989a.js"
+    "static/css/main.a3dfb3a2.css",
+    "static/js/main.e73cb4e9.js"
   ]
 }
