@@ -17,7 +17,6 @@
 
 .about-hero-section div {
   font-size: 18px;
-  line-height: 1.7;
 }
 
 .about-hero-container a {
@@ -45,10 +44,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .about-hero-container {
-    padding: 30px;
-  }
-
   .about-hero-container img {
     margin: 0 auto;
   }

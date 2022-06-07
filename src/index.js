@@ -3,6 +3,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
 import { Home } from './pages/home';
 import { About } from './pages/about';
+import { Projects } from './pages/projects';
 import { Navbar } from './components/navbar';
 import { Footer } from './components/footer';
 import React from 'react';
@@ -17,6 +18,7 @@ root.render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<About />} />
+          <Route path="/projects/:id" element={<Projects />} />
         </Routes>
       </div>
       <Footer />

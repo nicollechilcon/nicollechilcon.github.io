@@ -12,7 +12,6 @@ footer {
 
 footer p {
   color: var(--white);
-  font-size: 22px;
   text-align: center;
 }
 
@@ -42,11 +41,6 @@ footer p {
 }
 
 @media only screen and (max-width: 800px) {
-  footer p {
-    color: var(--white);
-    font-size: 20px;
-  }
-
   footer {
     padding: 30px;
   }
