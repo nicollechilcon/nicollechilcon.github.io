@@ -131,7 +131,7 @@ p {
 
 /* UTILITY CLASSES */
 .is-flex {
-  display: flex;
+  display: flex !important;
 }
 
 .is-inline-block {

@@ -77,6 +77,10 @@
 }
 
 /* RESEARCH */
+.research {
+  margin: 5% 0;
+}
+
 .research, .research a {
   color: var(--white);
 }
