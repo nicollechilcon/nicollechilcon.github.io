@@ -15,7 +15,7 @@ export function Navbar() {
   };
 
   return (
-    <nav>
+    <nav className="navbar">
       <div className="mobile-menu">
         <Link to="/">
           <img className="logo-img" src={logo} alt="logo"/>

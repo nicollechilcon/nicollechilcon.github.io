@@ -48,8 +48,35 @@ export function Projects() {
             </div>
           </article>
           <article className="design-process">
-            <h4>design process</h4>
+            <h4>Design process</h4>
             <img src={project.content.process} alt="discover, define, ideate, design, testing"/>
+          </article>
+          <article style={{ backgroundColor: project.content.research.dark_theme }} className="research">
+            <div>
+              <h4>Research</h4>
+              <p>{project.content.research.description}</p> <br/>
+              <p>You can find the complete research <b><a target="_blank" href={project.content.research.link} rel="noreferrer">here</a></b></p>
+            </div>
+          </article>
+          <article className="problems">
+            <div className="items-box">
+              <h5 style={{ color: project.content.research.title_theme}}>Main problems we find</h5>
+              <ul>
+                {project.content.research.problems.map((problem, i) => (
+                  <li key={i}>{problem}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="insights">
+              <div className="img-wrapper">
+                <div className="line-y"></div>
+                <div className="line-x"></div>
+              </div>
+              <div className="items-content">
+                <h5 style={{ color: project.content.research.title_theme}}>Insight</h5>
+                <p>{project.content.research.insight}</p>
+              </div>
+            </div>
           </article>
         </div>
       }

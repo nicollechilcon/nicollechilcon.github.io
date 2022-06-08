@@ -3,11 +3,13 @@ import ecolanaCover from '../assets/images/projects/ecolana/cover.png';
 import ecolanaHeroCover from '../assets/images/projects/ecolana/hero-cover.png';
 import ecolanaTitle from '../assets/images/projects/ecolana/title.png';
 import ecolanaProcess from '../assets/images/projects/ecolana/process.png';
+import ecolanaSketching from '../assets/images/projects/ecolana/sketching.png';
 // Viajes Ballesteros
 import viajesBallesterosCover from '../assets/images/projects/viajes-ballesteros/cover.png';
 import viajesBallesterosHeroCover from '../assets/images/projects/viajes-ballesteros/hero-cover.png';
 import viajesBallesterosTitle from '../assets/images/projects/viajes-ballesteros/title.png';
 import viajesBallesterosProcess from '../assets/images/projects/viajes-ballesteros/process.png';
+import viajesBallesterosSketching from '../assets/images/projects/viajes-ballesteros/sketching.png';
 
 export const projects = [
   {
@@ -35,7 +37,23 @@ export const projects = [
         team: '3 intelligent tech  women',
         duration: '4 weeks'
       },
-      process: viajesBallesterosProcess
+      process: viajesBallesterosProcess,
+      research: {
+        title_theme: '#493722',
+        dark_theme: '#C06A07',
+        light_theme: '#CCA780',
+        description: 'We conducted desk research, scope canvas, benchmarking and interviewed  lovers and potencial users, also make a testing to gain an understanding of the pain points.  As a result, we found that the user does not feel confident in purchasing travel packages on the Viajes Ballesteros Perú website.',
+        link: 'https://www.figma.com/file/fak2ukDa4xQEDJc56oo2qN/Research%2F-UX-Ecolana?node-id=30%3A1728',
+        problems: ['I don\'t understand the payment part', 'I click on packages and it doesn\'t take me anywhere.', 'There are cards that you click on and no information is provided.'],
+        insight: 'The effort invested in convincing the user with package information is shot down in the end with an insecure payment process. "Users look for truthful images and testimonials to trust the brand."',
+        solutions: [
+          'DESIGN SOLUTIONS Dynamic banner Visible testimonials',
+          'INTERACTION SOLUTIONS Payment gateway pop-up window. Include search facility for destinations and dates.',
+          'COMMUNICATION SOLUTIONS Include "About Us" section on the home page. Build your package" option. Step-by-step purchase sequence'
+        ],
+        sketching: 'After a lot of brainstorming, we decided to prioritize and sketch out our top solutions',
+        sketchingImg: viajesBallesterosSketching
+      }
     }
   },
   {
@@ -63,7 +81,23 @@ export const projects = [
         team: 'Bootcamp peers',
         duration: '4 weeks'
       },
-      process: ecolanaProcess
+      process: ecolanaProcess,
+      research: {
+        title_theme: '#208067',
+        dark_theme: '#2B6E5D',
+        light_theme: '#A4DBCD',
+        description: 'We conducted desk research, interviewed Ecolana lovers and potencial users, also make a testing to gain an understanding of the pain points.',
+        link: 'https://www.figma.com/file/fak2ukDa4xQEDJc56oo2qN/Research%2F-UX-Ecolana?node-id=30%3A1728',
+        problems: ['The user does not use all the functionalities of Ecolana App', 'The focus of the application is on the map, which means that the other functions are not visible and users do not use them'],
+        insight: 'Users feel guilty when they do not complete an Ecolana App activity because the focus is on the map and obscures the other features.',
+        solutions: [
+          'Simplify the current recycle experience.',
+          'Change the focus of the app and give greater visibility to all its functions.',
+          'Create dynamic user flow and visual language.'
+        ],
+        sketching: 'Our team applied the solutions that guided the flow of the application and the fluidity of moving from one screen to another. We prioritize changing the focus of the app',
+        sketchingImg: ecolanaSketching
+      }
     }
   }
 ];

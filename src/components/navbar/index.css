@@ -1,4 +1,4 @@
-nav {
+.navbar {
   background-color: var(--white);
   box-shadow: 0px 4px 4px rgba(216, 183, 176, 0.1);
   height: var(--navbar-height);
@@ -9,7 +9,7 @@ nav {
   z-index: 1;
 }
 
-nav, .mobile-menu {
+.navbar, .mobile-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,39 +22,39 @@ nav, .mobile-menu {
   cursor: pointer;
 }
 
-nav .logo-img {
+.navbar .logo-img {
   width: 30px;
 }
 
-nav .menu-img {
+.navbar .menu-img {
   width: 25px;
 }
 
-nav .close-img {
+.navbar .close-img {
   width: 17px;
 }
 
-nav ul {
+.navbar ul {
   display: flex;
   gap: 85px;
 }
 
-nav ul li {
+.navbar ul li {
   display: inline;
 }
 
-nav ul a {
+.navbar ul a {
   display: inline-block;
   text-decoration: none;
   color: var(--soft-black);
 }
 
-nav ul a:hover {
+.navbar ul a:hover {
   font-weight: bold;
 }
 
 @media only screen and (max-width: 800px) {
-  nav {
+  .navbar {
     padding: 0;
     height: auto;
     flex-direction: column;
@@ -67,7 +67,7 @@ nav ul a:hover {
     width: 100%;
   }
 
-  nav ul {
+  .navbar ul {
     display: none;
     border-top: 1px solid rgba(216, 183, 176, 0.1);
     width: 100%;
@@ -75,16 +75,16 @@ nav ul a:hover {
     gap: 0;
   }
 
-  nav ul a {
+  .navbar ul a {
     padding: 12px 30px;
     width: 100%;
   }
 
-  nav ul a:hover {
+  .navbar ul a:hover {
     background-color: hsla(11deg, 34%, 77%, 0.25);
   }
 
-  nav .logo-img {
+  .navbar .logo-img {
     width: 25px;
   }
 

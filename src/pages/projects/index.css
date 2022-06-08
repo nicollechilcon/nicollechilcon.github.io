@@ -8,6 +8,7 @@
 }
 
 .hero img:first-child {
+  max-width: 100%;
   height: 50px;
 }
 
@@ -21,7 +22,7 @@
   object-fit: cover;
 }
 
-.main, .design-process {
+.main, .design-process, .research > div, .problems {
   padding: 5%;
   max-width: var(--width-container);
   margin: 0 auto;
@@ -71,8 +72,85 @@
 
 .design-process img {
   width: 100%;
-  padding: 0 30px;
+  padding: 0 8%;
   height: auto;
+}
+
+/* RESEARCH */
+.research, .research a {
+  color: var(--white);
+}
+
+.research h4 {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* PROBLEMS */
+.problems .items-box, .problems .insights {
+  width: 100%;
+}
+
+.problems .items-box h5,
+.problems ul,
+.insights .img-wrapper,
+.insights .items-content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.problems .items-box h5 {
+  margin-right: 50px;
+  width: 100px;
+}
+
+.problems ul {
+  width: 60%;
+  max-width: 700px;
+}
+
+.problems li+li {
+  margin-top: 15px;
+}
+
+.problems h5 {
+  font-style: italic;
+}
+
+.insights {
+  display: flex;
+  margin-top: 15px;
+}
+
+.insights .img-wrapper {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  width: 60%;
+  padding-right: 15px;
+}
+
+.insights .items-content {
+  width: 40%;
+  height: min-content;
+}
+
+.insights .items-content h5 {
+  margin-bottom: 10px;
+}
+
+.line-y, .line-x {
+  background-color: #2E2E2E;
+}
+
+.line-y {
+  width: 5px;
+  height: 65%;
+}
+
+.line-x {
+  width: 95%;
+  height: 5px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -88,6 +166,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     gap: 30px 0;
+  }
+
+  .main h4 {
+    margin-bottom: 20px;
   }
 
   .description {
@@ -126,5 +208,19 @@
 
   .duration {
     grid-area: 2 / 2 / 3 / 3;
+  }
+
+  /* DESING PROCESS */
+  .design-process h4 {
+    margin-bottom: 30px;
+  }
+  
+  .design-process img {
+    padding: 0;
+  }
+
+  /* PROBLEMS */
+  .problems .items-box h5 {
+    margin-right: 5%;
   }
 };
