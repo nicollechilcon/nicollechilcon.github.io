@@ -1,0 +1,18 @@
+.research > div {
+  padding: 5%;
+  max-width: var(--width-container);
+  margin: 0 auto;
+}
+
+.research {
+  margin: 5% 0;
+}
+
+.research, .research a {
+  color: var(--white);
+}
+
+.research h4 {
+  font-style: italic;
+  margin-bottom: 10px;
+}

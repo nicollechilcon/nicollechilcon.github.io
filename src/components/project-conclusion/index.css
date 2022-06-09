@@ -1,0 +1,35 @@
+.conclusion > div {
+  padding: 5%;
+  max-width: var(--width-container);
+  margin: 0 auto;
+}
+
+.conclusion {
+  margin: 5% 0;
+}
+
+.conclusion h4 {
+  font-style: italic;
+}
+
+.conclusion h4 span {
+  font-style: normal;
+}
+
+.conclusion h4, .conclusion p {
+  margin-bottom: 20px;
+}
+.conclusion ul {
+  margin-left: 10px;
+}
+
+.conclusion li {
+  line-height: 2;
+}
+
+@media only screen and (max-width: 800px) {
+  .conclusion {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}

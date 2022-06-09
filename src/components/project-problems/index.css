@@ -1,0 +1,81 @@
+.problems {
+  padding: 5%;
+  max-width: var(--width-container);
+  margin: 0 auto;
+}
+
+.problems .items-box, .problems .insights {
+  width: 100%;
+}
+
+.problems .items-box h5,
+.problems ul,
+.insights .img-wrapper,
+.insights .items-content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.problems .items-box h5 {
+  margin-right: 50px;
+  width: 100px;
+}
+
+.problems ul {
+  width: 60%;
+  max-width: 700px;
+}
+
+.problems li+li {
+  margin-top: 15px;
+}
+
+.problems h5 {
+  font-style: italic;
+}
+
+.insights {
+  display: flex;
+  margin-top: 15px;
+}
+
+.insights .img-wrapper {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  width: 60%;
+  padding-right: 15px;
+}
+
+.insights .items-content {
+  width: 40%;
+  height: min-content;
+}
+
+.insights .items-content h5 {
+  margin-bottom: 10px;
+}
+
+.line-y, .line-x {
+  background-color: #2E2E2E;
+}
+
+.line-y {
+  width: 5px;
+  height: 65%;
+}
+
+.line-x {
+  width: 95%;
+  height: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .problems .items-box h5 {
+    margin-right: 5%;
+  }
+
+  .insights .items-content {
+    width: 70%;
+  }
+}
