@@ -74,9 +74,28 @@ export function Projects() {
               </div>
               <div className="items-content">
                 <h5 style={{ color: project.content.research.title_theme}}>Insight</h5>
-                <p>{project.content.research.insight}</p>
+                <p dangerouslySetInnerHTML={{ __html: project.content.research.insight }}/>
               </div>
             </div>
+          </article>
+
+          <article style={{ backgroundColor: project.content.research.light_theme }} className="solutions">
+            <div className="items-box">
+              <h4>Solutions</h4>
+              <ul>
+                {project.content.research.solutions.map((solution, i) => (
+                  <li key={i}>
+                    <span>0{i + 1}</span>
+                    <p dangerouslySetInnerHTML={{ __html: solution }} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="sketching">
+              <h4>Sketching our ideas</h4>
+              <p>{project.content.research.sketching}</p>
+            </div>
+            <img alt="sketching photos" src={project.content.research.sketchingImg} />
           </article>
         </div>
       }

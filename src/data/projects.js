@@ -45,11 +45,11 @@ export const projects = [
         description: 'We conducted desk research, scope canvas, benchmarking and interviewed  lovers and potencial users, also make a testing to gain an understanding of the pain points.  As a result, we found that the user does not feel confident in purchasing travel packages on the Viajes Ballesteros Perú website.',
         link: 'https://www.figma.com/file/fak2ukDa4xQEDJc56oo2qN/Research%2F-UX-Ecolana?node-id=30%3A1728',
         problems: ['I don\'t understand the payment part', 'I click on packages and it doesn\'t take me anywhere.', 'There are cards that you click on and no information is provided.'],
-        insight: 'The effort invested in convincing the user with package information is shot down in the end with an insecure payment process. "Users look for truthful images and testimonials to trust the brand."',
+        insight: 'The effort invested in convincing the user with package information is shot down in the end with an insecure payment process. <br/> <em>"Users look for truthful images and testimonials to trust the brand."</em>',
         solutions: [
-          'DESIGN SOLUTIONS Dynamic banner Visible testimonials',
-          'INTERACTION SOLUTIONS Payment gateway pop-up window. Include search facility for destinations and dates.',
-          'COMMUNICATION SOLUTIONS Include "About Us" section on the home page. Build your package" option. Step-by-step purchase sequence'
+          'DESIGN SOLUTIONS <br/> Dynamic banner <br/> Visible testimonials',
+          'INTERACTION SOLUTIONS <br/> Payment gateway pop-up window. <br/> Include search facility for destinations and dates.',
+          'COMMUNICATION SOLUTIONS <br/> Include "About Us" section on the home page. <br/> Build your package" option. Step-by-step purchase sequence'
         ],
         sketching: 'After a lot of brainstorming, we decided to prioritize and sketch out our top solutions',
         sketchingImg: viajesBallesterosSketching
