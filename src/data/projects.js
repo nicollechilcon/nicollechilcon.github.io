@@ -53,6 +53,11 @@ export const projects = [
         ],
         sketching: 'After a lot of brainstorming, we decided to prioritize and sketch out our top solutions',
         sketchingImg: viajesBallesterosSketching
+      },
+      conclusion: {
+        theme: '#FEE9D1',
+        final_thoughts: 'I learned the importance of having an intuitive, simple and navigable design for users, through an information architecture that helped us to meet the user\'s needs. <br/><br/>Applying UX writing to generate curiosity in the visitors of the site and generate more visits, targeting a larger audience in the future! <br/><br/> From my team, working with 3 amazing women who helped me to strengthen my soft skills in client meetings, and hard skills since the 3 of us ended up dominating figma animations ;)',
+        steps: ['Show information that generates: trust and authenticity.', 'Simple information structure. Less is more.', 'Invest in high quality photography and video.', 'Keep updated on trends, promotions and the most traveled times of the year.']
       }
     }
   },
@@ -85,7 +90,7 @@ export const projects = [
       research: {
         title_theme: '#208067',
         dark_theme: '#2B6E5D',
-        light_theme: '#A4DBCD',
+        light_theme: '#A4DBCDAD',
         description: 'We conducted desk research, interviewed Ecolana lovers and potencial users, also make a testing to gain an understanding of the pain points.',
         link: 'https://www.figma.com/file/fak2ukDa4xQEDJc56oo2qN/Research%2F-UX-Ecolana?node-id=30%3A1728',
         problems: ['The user does not use all the functionalities of Ecolana App', 'The focus of the application is on the map, which means that the other functions are not visible and users do not use them'],
@@ -97,6 +102,11 @@ export const projects = [
         ],
         sketching: 'Our team applied the solutions that guided the flow of the application and the fluidity of moving from one screen to another. We prioritize changing the focus of the app',
         sketchingImg: ecolanaSketching
+      },
+      conclusion: {
+        theme: '#92D4C34A',
+        final_thoughts: 'With the final prototype created, I believe I have met the objectives that were traced at the beginning together with the client. New features were added based on the needs that I summarized in the interview with the users. We obtained a score of 9.5 from the users tested. <br/><br/> This UX design project that allowed me to gain a thorough understanding of design, research, testing, and constant iteration also helped me to empathize with these users who care about the environment and to be one of them.',
+        steps: ['Continue testing and iterating if it\'s necessary', 'Create onboarding walkthrough steps', 'Start developing ways to make shorten the processes of validation residues']
       }
     }
   }

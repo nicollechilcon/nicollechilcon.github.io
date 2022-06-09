@@ -15,6 +15,7 @@ export function Projects() {
             <img alt="project title" src={project.content.hero.titleImg} />
             <img alt="project cover" src={project.content.hero.coverImg} />
           </div>
+
           <article className="main">
             <div className="description">
               <h4>What is <span style={{ color: project.content.main.theme }}>{project.name}</span>?</h4>
@@ -47,10 +48,12 @@ export function Projects() {
               </div>
             </div>
           </article>
+
           <article className="design-process">
             <h4>Design process</h4>
             <img src={project.content.process} alt="discover, define, ideate, design, testing"/>
           </article>
+
           <article style={{ backgroundColor: project.content.research.dark_theme }} className="research">
             <div>
               <h4>Research</h4>
@@ -58,6 +61,7 @@ export function Projects() {
               <p>You can find the complete research <b><a target="_blank" href={project.content.research.link} rel="noreferrer">here</a></b></p>
             </div>
           </article>
+
           <article className="problems">
             <div className="items-box">
               <h5 style={{ color: project.content.research.title_theme}}>Main problems we find</h5>
@@ -96,6 +100,19 @@ export function Projects() {
               <p>{project.content.research.sketching}</p>
             </div>
             <img alt="sketching photos" src={project.content.research.sketchingImg} />
+          </article>
+
+          <article style={{ backgroundColor: project.content.conclusion.theme }} className="conclusion">
+            <div>
+              <h4>Final thoughts + next steps 👆</h4>
+              <p dangerouslySetInnerHTML={{ __html: project.content.conclusion.final_thoughts }} />
+              <h4>Next steps</h4>
+              <ul>
+                {project.content.conclusion.steps.map((step, i) => (
+                  <li key={i}>{step}</li>
+                ))}
+              </ul>
+            </div>
           </article>
         </div>
       }
