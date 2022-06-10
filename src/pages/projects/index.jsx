@@ -4,6 +4,7 @@ import { ProjectResearchBox } from '../../components/project-research-box';
 import { ProjectSolutions } from '../../components/project-solutions';
 import { ProjectConclusion } from '../../components/project-conclusion';
 import { ProjectProblems } from '../../components/project-problems';
+import { ProjectPrototypes } from '../../components/project-prototypes';
 import { ProjectHero } from '../../components/project-hero';
 import { projects } from '../../data/projects';
 import { useParams } from 'react-router-dom';
@@ -23,6 +24,7 @@ export function Projects() {
           <ProjectResearchBox content={project.content.research} />
           <ProjectProblems content={project.content.research} />
           <ProjectSolutions content={project.content.research} />
+          <ProjectPrototypes content={project.content.prototype} />
           <ProjectConclusion content={project.content.conclusion} />
         </div>
       }

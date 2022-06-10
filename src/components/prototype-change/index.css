@@ -1,0 +1,26 @@
+.prototypes-change {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 80px 0;
+}
+
+.prototypes-change p {
+  width: 100%;
+  max-width: 260px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 5%;
+}
+
+.prototypes-change .img-container span {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.prototypes-change img {
+  max-width: 300px;
+}

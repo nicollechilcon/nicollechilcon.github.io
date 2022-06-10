@@ -4,12 +4,20 @@ import ecolanaHeroCover from '../assets/images/projects/ecolana/hero-cover.png';
 import ecolanaTitle from '../assets/images/projects/ecolana/title.png';
 import ecolanaProcess from '../assets/images/projects/ecolana/process.png';
 import ecolanaSketching from '../assets/images/projects/ecolana/sketching.png';
+import ecolanaBefore1 from '../assets/images/projects/ecolana/1-before.png';
+import ecolanaAfter1 from '../assets/images/projects/ecolana/1-after.png';
+import ecolanaBefore2 from '../assets/images/projects/ecolana/2-before.png';
+import ecolanaAfter2 from '../assets/images/projects/ecolana/2-after.png';
 // Viajes Ballesteros
 import viajesBallesterosCover from '../assets/images/projects/viajes-ballesteros/cover.png';
 import viajesBallesterosHeroCover from '../assets/images/projects/viajes-ballesteros/hero-cover.png';
 import viajesBallesterosTitle from '../assets/images/projects/viajes-ballesteros/title.png';
 import viajesBallesterosProcess from '../assets/images/projects/viajes-ballesteros/process.png';
 import viajesBallesterosSketching from '../assets/images/projects/viajes-ballesteros/sketching.png';
+import viajesBallesterosBefore1 from '../assets/images/projects/viajes-ballesteros/1-before.png';
+import viajesBallesterosAfter1 from '../assets/images/projects/viajes-ballesteros/1-after.png';
+import viajesBallesterosBefore2 from '../assets/images/projects/viajes-ballesteros/2-before.png';
+import viajesBallesterosAfter2 from '../assets/images/projects/viajes-ballesteros/2-after.png';
 
 export const projects = [
   {
@@ -53,6 +61,22 @@ export const projects = [
         ],
         sketching: 'After a lot of brainstorming, we decided to prioritize and sketch out our top solutions',
         sketchingImg: viajesBallesterosSketching
+      },
+      prototype: {
+        description: 'Now, with our usability tests and feedback from our medium fidelity prototype, we have implemented the necessary improvements, and finally the final result!',
+        link: 'https://www.figma.com/proto/cY17WqD89M7fLzcThy5sqL/Viajes-Ballesteros-Peru-%2F-nicolle?page-id=143%3A88&node-id=386%3A2080&viewport=449%2C371%2C0.02&scaling=scale-down&starting-point-node-id=386%3A2080&fuid=808688472687422097',
+        changes: [
+          {
+            beforeImg: viajesBallesterosBefore1,
+            afterImg: viajesBallesterosAfter1,
+            explanation: 'In the main banner, now we can see a search box, with  destinations and travel dates to encourage the buying process.'
+          },
+          {
+            beforeImg: viajesBallesterosBefore2,
+            afterImg: viajesBallesterosAfter2,
+            explanation: 'Brand new pop-up payment that does not take the user out of the page, increasing the user\'s confidence!'
+          }
+        ]
       },
       conclusion: {
         theme: '#FEE9D1',
@@ -102,6 +126,22 @@ export const projects = [
         ],
         sketching: 'Our team applied the solutions that guided the flow of the application and the fluidity of moving from one screen to another. We prioritize changing the focus of the app',
         sketchingImg: ecolanaSketching
+      },
+      prototype: {
+        description: 'With all the high fidelity pages designed, we built the final prototype, using Figma.',
+        link: 'https://www.figma.com/file/fak2ukDa4xQEDJc56oo2qN/Research%2F-UX-Ecolana?node-id=30%3A1728',
+        changes: [
+          {
+            beforeImg: ecolanaBefore1,
+            afterImg: ecolanaAfter1,
+            explanation: 'The other functions are now visible, in the profile we can find how to access more of them'
+          },
+          {
+            beforeImg: ecolanaBefore2,
+            afterImg: ecolanaAfter2,
+            explanation: 'Brand-new map with intuitive buttons and a hamburger menu at the bottom for accessibility!'
+          }
+        ]
       },
       conclusion: {
         theme: '#92D4C34A',
