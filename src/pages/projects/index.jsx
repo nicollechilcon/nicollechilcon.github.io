@@ -5,6 +5,7 @@ import { ProjectSolutions } from '../../components/project-solutions';
 import { ProjectConclusion } from '../../components/project-conclusion';
 import { ProjectProblems } from '../../components/project-problems';
 import { ProjectPrototypes } from '../../components/project-prototypes';
+import { ProjectLink } from '../../components/project-link';
 import { ProjectHero } from '../../components/project-hero';
 import { projects } from '../../data/projects';
 import { useParams } from 'react-router-dom';
@@ -13,6 +14,7 @@ import React from 'react';
 export function Projects() {
   const { id } = useParams();
   const project = projects.find(project => id === project.id);
+  const [nextProject] = projects.filter(project => id !== project.id).sort(() => 0.5 - Math.random());
 
   return (
     <>
@@ -26,6 +28,7 @@ export function Projects() {
           <ProjectSolutions content={project.content.research} />
           <ProjectPrototypes content={project.content.prototype} />
           <ProjectConclusion content={project.content.conclusion} />
+          {nextProject && <ProjectLink id={nextProject.id} content={nextProject.link} />}
         </div>
       }
     </>

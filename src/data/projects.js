@@ -18,6 +18,7 @@ import viajesBallesterosBefore1 from '../assets/images/projects/viajes-ballester
 import viajesBallesterosAfter1 from '../assets/images/projects/viajes-ballesteros/1-after.png';
 import viajesBallesterosBefore2 from '../assets/images/projects/viajes-ballesteros/2-before.png';
 import viajesBallesterosAfter2 from '../assets/images/projects/viajes-ballesteros/2-after.png';
+import viajesBallesterosLinkImg from '../assets/images/projects/viajes-ballesteros/link-img.png';
 
 export const projects = [
   {
@@ -83,6 +84,11 @@ export const projects = [
         final_thoughts: 'I learned the importance of having an intuitive, simple and navigable design for users, through an information architecture that helped us to meet the user\'s needs. <br/><br/>Applying UX writing to generate curiosity in the visitors of the site and generate more visits, targeting a larger audience in the future! <br/><br/> From my team, working with 3 amazing women who helped me to strengthen my soft skills in client meetings, and hard skills since the 3 of us ended up dominating figma animations ;)',
         steps: ['Show information that generates: trust and authenticity.', 'Simple information structure. Less is more.', 'Invest in high quality photography and video.', 'Keep updated on trends, promotions and the most traveled times of the year.']
       }
+    },
+    link: {
+      theme: '#F39935',
+      img: viajesBallesterosLinkImg,
+      title: 'Viajes ballesteros  |  Perú  |  Website  |  UX Experience'
     }
   },
   {
@@ -148,6 +154,11 @@ export const projects = [
         final_thoughts: 'With the final prototype created, I believe I have met the objectives that were traced at the beginning together with the client. New features were added based on the needs that I summarized in the interview with the users. We obtained a score of 9.5 from the users tested. <br/><br/> This UX design project that allowed me to gain a thorough understanding of design, research, testing, and constant iteration also helped me to empathize with these users who care about the environment and to be one of them.',
         steps: ['Continue testing and iterating if it\'s necessary', 'Create onboarding walkthrough steps', 'Start developing ways to make shorten the processes of validation residues']
       }
+    },
+    link: {
+      theme: '#5AAA95',
+      img: ecolanaCover,
+      title: 'Ecolana App  |  México  |  Application |  UX Design'
     }
   }
 ];
