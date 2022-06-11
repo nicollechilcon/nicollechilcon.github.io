@@ -57,7 +57,7 @@
 }
 
 .line-y, .line-x {
-  background-color: #2E2E2E;
+  background-color: var(--soft-black);
 }
 
 .line-y {

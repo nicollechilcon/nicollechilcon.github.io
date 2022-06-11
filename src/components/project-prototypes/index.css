@@ -27,9 +27,17 @@
   padding-bottom: 5%;
 }
 
+.prototypes-slides-wrapper {
+  display: none;
+}
+
 @media only screen and (max-width: 800px) {
   .prototypes-wrapper {
     display: none;
+  }
+
+  .prototypes-slides-wrapper {
+    display: block;
   }
 
   .prototypes a {

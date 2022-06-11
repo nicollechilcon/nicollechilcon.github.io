@@ -1,4 +1,5 @@
 import { ProjectPrototypeChange } from '../../components/prototype-change';
+import { ProjectPrototypesSlide } from '../../components/prototypes-slide';
 import PropTypes from 'prop-types';
 import React from 'react';
 import './index.css';
@@ -11,6 +12,11 @@ export function ProjectPrototypes({ content }) {
       <div className="prototypes-wrapper">
         {content.changes.map((change, i) => (
           <ProjectPrototypeChange key={i} content={change} />
+        ))}
+      </div>
+      <div className="prototypes-slides-wrapper">
+        {content.changes.map((change, i) => (
+          <ProjectPrototypesSlide key={i} content={change} />
         ))}
       </div>
       <div className="prototype-link-wrapper">
