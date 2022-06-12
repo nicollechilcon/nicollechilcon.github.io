@@ -8,6 +8,7 @@ footer {
   gap: 20px;
   background-color: var(--dark-grey);
   padding: 5%;
+  margin-top: 20px;
 }
 
 footer p {
