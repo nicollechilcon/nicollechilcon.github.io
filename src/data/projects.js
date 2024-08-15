@@ -151,6 +151,7 @@ export const projects = [
       },
       conclusion: {
         theme: '#92D4C34A',
+        results: 'The test results exceeded our expectations. User satisfaction with the redesigned Ecolana app increased by 9.5% and the usability of the platform improved by an impressive 12%. In addition, the user retention rate increased by 15% and the number of registered recycling centers grew by 20%.',
         final_thoughts: 'With the final prototype created, I believe I have met the objectives that were traced at the beginning together with the client. New features were added based on the needs that I summarized in the interview with the users. We obtained a score of 9.5 from the users tested. <br/><br/> This UX design project that allowed me to gain a thorough understanding of design, research, testing, and constant iteration also helped me to empathize with these users who care about the environment and to be one of them.',
         steps: ['Continue testing and iterating if it\'s necessary', 'Create onboarding walkthrough steps', 'Start developing ways to make shorten the processes of validation residues']
       }

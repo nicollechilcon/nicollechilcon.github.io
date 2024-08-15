@@ -6,6 +6,12 @@ export function ProjectConclusion({ content }) {
   return (
     <article style={{ backgroundColor: content.theme }} className="conclusion">
       <div>
+        {content.results && (
+          <>
+            <h4>Results</h4>
+            <p>{content.results}</p>
+          </>
+        )}
         <h4>Final thoughts + next steps <span>👆</span></h4>
         <p dangerouslySetInnerHTML={{ __html: content.final_thoughts }} />
         <h4>Next steps</h4>
@@ -24,5 +30,6 @@ ProjectConclusion.propTypes = {
     theme: PropTypes.string.isRequired,
     final_thoughts: PropTypes.string.isRequired,
     steps: PropTypes.arrayOf(PropTypes.string).isRequired,
+    results: PropTypes.string
   }).isRequired
 };
